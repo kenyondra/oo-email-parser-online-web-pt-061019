@@ -6,7 +6,8 @@ class EmailParser
   end
   
   def parse
-    emails.delete 
+    emails.delete(",")
+    
     
     
   
