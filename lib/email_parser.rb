@@ -9,7 +9,8 @@ class EmailParser
     emails.delete(',').split.uniq 
   end
   
-  
+end
+
     
     
     
